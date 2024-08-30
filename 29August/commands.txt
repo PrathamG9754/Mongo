@@ -29,3 +29,4 @@ db.student.find({$and:[ {age:{$gt:22}}, {marks:{$gte:85}}]})
 
 //estimated count
 db.collection.estimatedDocumentCount()
+//
